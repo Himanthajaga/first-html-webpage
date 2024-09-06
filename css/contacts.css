@@ -1,0 +1,51 @@
+h1{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: #000000;
+    text-align: center;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: #000000;
+}
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: #b83838;
+    text-align: justify;
+}
+label{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: #000000;
+    text-align: justify;
+}
+legend{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: #000000;
+}
+input{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: #000000;
+    text-align: center;
+    background-color: #ffcc00;
+    border: 1px solid #ffcc00;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+}

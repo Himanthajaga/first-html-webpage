@@ -1,0 +1,48 @@
+
+#name{
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: #ac316e;
+}
+#name li :hover{
+    color: #000000;
+    text-shadow: 5px 5px 5px rgb(1, 131, 218);
+}
+
+h1{
+    font-size:2rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: #000000;
+    text-align: center;
+}
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: #000000;
+    text-align: justify;
+}
+#second-heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: #000000;
+}
+button{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: #722828;
+    background-color: #ff00f2;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+}

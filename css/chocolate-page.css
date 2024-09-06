@@ -1,0 +1,23 @@
+h1{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: #cf42a5;
+    text-align: center;
+}
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: #000000;
+    text-align: justify;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: #000000;
+}
