@@ -1,10 +1,25 @@
-h1{
+ .main-heading{
     font-size: 2rem;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: solid;
-    color: #cf42a5;
+    color: #cf8242;
     text-align: center;
+}
+ .cake-names{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: #000000;
+}
+.components{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: hsl(326, 48%, 25%);
+    text-shadow: 2px 2px 5px #1bd185;
 }
 p{
     font-size: 1rem;
@@ -14,14 +29,8 @@ p{
     color: #000000;
     text-align: justify;
 }
-h3{
-    font-size: 1.5rem;
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: solid;
-    color: #4e1b91;
-}
-ul{
+
+.ul-com{
     font-size: 1rem;
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
@@ -29,22 +38,38 @@ ul{
     color: #000000;
     text-align: justify;
 }
-ol{
-    font-size: 1rem;
-    font-weight: 400;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: solid;
-    color: #921d96;
-    text-align: justify;
+.cake-image-1{
+   border: 2px solid #000000;
+    border-radius: 10px;
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
 }
-ol li :hover{
-    color: #000000;
-    text-shadow: 5px 5px 5px rgb(1, 131, 218);
+.cake-image-2{
+   border: 2px solid #000000;
+    border-radius: 10px;
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
 }
-h4{
-    font-size: 1.5rem;
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: solid;
-    color: #53b48f;
+.cake-image-3{
+   border: 2px solid #000000;
+    border-radius: 10px;
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.cake-image-4{
+   border: 2px solid #000000;
+    border-radius: 10px;
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.cake-image-5{
+   border: 2px solid #000000;
+    border-radius: 10px;
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
 }

@@ -3,13 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <link rel="stylesheet" href="/css/home.css" />
-     <link rel="stylesheet" href="/css/branches.css">
+    <link rel="stylesheet" href="/css/home.css" />
+    <link rel="stylesheet" href="/css/branches.css" />
     <title>cart</title>
   </head>
   <body>
     <header>
-      <nav>
+    <nav class="header-nav">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo-1">ChocoLK</label>
         <ul>
           <li><a href="/pages/homepage.html">Home</a></li>
           <li><a href="/pages/chocolatepage.html">Chocolate</a></li>
@@ -17,7 +22,7 @@
           <li><a href="/pages/About.html">About Us</a></li>
           <li><a href="/pages/cocolateCakes.html">Cakes</a></li>
           <li><a href="/pages/contacts.html">Contact Us</a></li>
-          <li><a href="/pages/branches.html">Branches</a></li>
+          <li><a href="/pages/branches.html" class="active">Branches</a></li>
         </ul>
       </nav>
     </header>
@@ -87,28 +92,69 @@
           </p>
         </div>
       </section>
-        <footer class="fotter-class">
-        <h2 id="sub-heading-2">www.choco.com</h2>
-        <img
-          src="/Assests/Images/fb.png"
-          width="50px"
-          height="50px"
-          alt="facebook logo"
-        />
-        <img
-          src="/Assests/Images/instagram-vector-social-media-icon-7-june-2021-bangkok-thailand_53876-136728.avif"
-          width="50px"
-          height="50px"
-          alt="instagram logo"
-        />
-        <img
-          src="/Assests/Images/yt.webp"
-          width="50px"
-          height="50px"
-          alt="youtube logo"
-        />
-        <h2 id="sub-heading-2">Quick Links</h2>
-        <nav id="fotter-nav">
+      <footer class="fotter-class">
+        <h2 class="sub-heading-2">www.choco.com</h2>
+        <div class="fotter-images-container">
+          <div class="logo">
+            <img
+              src="/Assests/Images/fb.png"
+              width="50px"
+              height="50px"
+              alt="facebook logo"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="/Assests/Images/instagram-vector-social-media-icon-7-june-2021-bangkok-thailand_53876-136728.avif"
+              width="50px"
+              height="50px"
+              alt="instagram logo"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="/Assests/Images/yt.webp"
+              width="50px"
+              height="50px"
+              alt="youtube logo"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="/Assests/Images/WhatsApp.svg.webp"
+              width="50px"
+              height="50px"
+              alt="youtube logo"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="/Assests/Images/github.png"
+              width="50px"
+              height="50px"
+              alt="youtube logo"
+            />
+          </div>
+           <div class="logo">
+            <img
+              src="/Assests/Images/twitter.png"
+              width="50px"
+              height="50px"
+              alt="youtube logo"
+            />
+          </div>
+           <div class="logo">
+            <img
+              src="/Assests/Images/linked.png"
+              width="50px"
+              height="50px"
+              alt="youtube logo"
+            />
+          </div>
+        </div>
+
+        <h2 class="sub-heading-2">Quick Links</h2>
+        <nav class="fotter-nav">
           <ul>
             <li><a href="About.html">About us</a></li>
             <li><a href="contacts.html">Contact us</a></li>
@@ -119,7 +165,7 @@
             <li><a href="homepage.html">Home</a></li>
           </ul>
         </nav>
-        <h5 id="sub-heading-5">Copyright &copy; 2024</h5>
+        <h5 class="sub-heading-5">Copyright &copy; 2024</h5>
       </footer>
     </main>
   </body>

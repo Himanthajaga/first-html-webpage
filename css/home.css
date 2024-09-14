@@ -1,76 +1,125 @@
-.main{
-   
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    background-color : #eef0d2;
-    padding: auto;
-}
 
-.card{
-    display: inline-block;
-    margin: 2%;
-    padding: 2%;
-    background-color: hsl(305, 43%, 65%);
-    border-radius: 20px;
-    box-shadow: 12px 2px 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    width: 20%;
-    height: 20%;
-    text-align: center;
-}
 
-.card img{
+
+
+.header-nav{
+   background-color: #e716e7;
+   height: 80px;
     width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
-
-.card button{
-    margin-top: 5%;
-    padding: 5px 10px;
-    border: none;
-    background-color: #ff0000;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 50%;
-}
-
-.card button:hover{
-    background-color: #cc8484;
-}
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    color: rgb(255, 0, 0);
    
 }
-
-nav ul{
-    display: flex;
-    list-style: none;
-}
-
-nav ul li{
-    margin-right: 78px;
-
-}
-
-nav ul li a{
-    color: rgb(172, 62, 62);
-    text-decoration: none;
-    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+label.logo-1{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: solid;
-    font-weight: 900;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
+
+.header-nav ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+.fotter-nav ul {
+   text-decoration: none;
+    
+    
+    
+}
+
+.header-nav ul li{
+   display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+
+.fotter-nav ul li{
+  display: inline-block;
+  line-height: 80px;
+    margin: 0 5px;
+
+
+}
+.fotter-nav ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: underline;
+}
+
+.header-nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+
+}
+
+a.active, a:hover{
+    background-color: #000000;
+    transition: .5s;
+
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+/* @media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: 0;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover, a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+} */
 
 nav ul li a:hover{
     /* text-decoration: underline; */
@@ -89,10 +138,12 @@ nav ul li a:hover{
 }
 #heading-main{
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 400;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: solid;
+    border: 10px;
+    border-color: #6d1a66;
 }
 #top-para{
     font-size: 1rem;
@@ -104,14 +155,14 @@ nav ul li a:hover{
 }
 .heading-section{
     background-color: #9fd8a7;
+    border: 10px;
 }
 .fotter-class{
     text-align: center;
-    padding: auto;
     font-size: small;
     
 }   
-.fotter-class #sub-heading-2{
+.sub-heading-2{
     font-size: 1.5rem;
     font-weight: 600;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
@@ -120,38 +171,31 @@ nav ul li a:hover{
     color: #cc2727;
     font-size: small;
 }
-#fotter-nav ul li a:hover{
-    color: #6d1a66;
-    text-shadow: 5px 5px 5px rgb(255, 0, 128);
-}#fotter-nav{
+.logo{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+     width: 100px;
+        height: 100px;
+        border: 2px solid rgb(194, 27, 27);
+        border-radius: 12px;
+        align-items: center;
+        font-size: 80px;
+        justify-content: center;
+}
+.fotter-images-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
     align-items: center;
-    padding: 40px;
-    color: rgb(214, 34, 124);
-   
+    padding: 5px;
+    color: rgb(255, 0, 0);
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: auto;
 }
 
-#fotter-nav ul{
-    display: flex;
-    list-style: none;
-}
-
-#fotter-nav ul li{
-    margin-right: 95px;
-
-}
-
-#fotter-nav ul li a{
-    color: rgb(0, 0, 0);
-    text-decoration-thickness: 9px;
-    text-shadow: 1px 2px 5px rgb(29, 8, 8);
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: solid;
-    font-weight: 800;
-
-
-}
 #sub-heading-5{
     font-size: smaller;
     font-weight: 600;
@@ -186,6 +230,7 @@ nav ul li a:hover{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: solid;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    text-decoration: solid;
     font-size: 3rem;
 }
 #sub-heading-3{
@@ -305,4 +350,36 @@ nav ul li a:hover{
     font-weight: 600;
     text-decoration: solid;
     color: #883c3c;
+}
+.sub-heading-5{
+    font-size: smaller;
+    font-weight: 600;
+    text-shadow: 5px 5px 5px rgb(255, 79, 79);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: #a13c3c;
+}
+.img-home-1{
+    border: 2px solid rgb(0, 0, 0);
+    float: right;
+    margin: 1%;
+    padding: 1%;
+    width: 450px;
+    height: 450px;
+}
+.img-home-2{
+    border: 2px solid rgb(0, 0, 0);
+    float: right;
+    margin: 1%;
+    padding: 1%;
+    width: 300px;
+    height: 400px;
+}
+.img-home-3{
+    border: 2px solid rgb(0, 0, 0);
+    float: right;
+    margin: 1%;
+    padding: 1%;
+    width: 450px;
+    height: 450px;
 }
