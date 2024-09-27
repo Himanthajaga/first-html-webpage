@@ -1,7 +1,6 @@
-
-
-
-
+body{
+    margin: 0;
+}
 .header-nav{
    background-color: #e716e7;
    height: 80px;
@@ -9,10 +8,11 @@
    
 }
 label.logo-1{
+    margin-left: 10px;
+    padding-left: 10px;
     color: white;
     font-size: 30px;
     line-height: 80px;
-    padding: 0 100px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: solid;
