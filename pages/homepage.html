@@ -14,10 +14,6 @@
   <body>
     <header>
       <nav class="header-nav">
-        <input type="checkbox" id="check" />
-        <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
-        </label>
         <label class="logo-1">ChocoLK</label>
         <ul>
           <li><a href="/pages/homepage.html" class="active">Home</a></li>
@@ -29,7 +25,34 @@
           <li><a href="/pages/branches.html">Branches</a></li>
         </ul>
       </nav>
+       <i id="menu" class="fa-solid fa-bars"></i>
     </header>
+
+     <div class="menu-panel"id="menu-panel-id">
+        <button id="btn-close" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+        <ul>
+             <li><a href="/pages/homepage.html" class="active">Home</a></li>
+          <li><a href="/pages/chocolatepage.html">Chocolate</a></li>
+          <li><a href="/pages/giftpage.html">Chocolate Gifts</a></li>
+          <li><a href="/pages/About.html">About Us</a></li>
+          <li><a href="/pages/cocolateCakes.html">Cakes</a></li>
+          <li><a href="/pages/contacts.html">Contact Us</a></li>
+          <li><a href="/pages/branches.html">Branches</a></li>
+        </ul>
+    </div>
+    <script>
+        const menu = document.getElementById("menu");
+        const menuPanel = document.getElementById("menu-panel-id");
+        const btnClose = document.getElementById("btn-close");
+
+        menu.addEventListener("click", () => {
+            menuPanel.classList.toggle("active");
+        });
+        btnClose.addEventListener("click", () => {
+            menuPanel.classList.remove("active");
+        });
+        
+    </script>
     <main>
       <section class="heading-section">
         <div class="top">
@@ -70,6 +93,7 @@
 
           <h3 id="sub-heading-3">Dairy Milk Products</h3>
           <ul class="ul-2">
+            <div class="pro">
             <li>Chocolate</li>
             <img
               class="img-home-1"
@@ -86,6 +110,8 @@
               cocoa mass, cocoa butter, and cocoa powder. Here’s a deeper look
               into the world of chocolates:
             </p>
+            </div>
+             <div class="pro">
             <li>Cakes</li>
 
             <img
@@ -100,6 +126,8 @@
               this timeless treat. Here's an overview of some popular types of
               chocolate cakes and ideas for enjoying them:
             </p>
+            </div>
+            <div class="pro">
             <li>Gifts</li>
             <img
               class="img-home-3"
@@ -116,6 +144,7 @@
               selection of chocolates, which can range from different types of
               chocolate bars, truffles,
             </p>
+            </div>
           </ul>
           <aside id="aside">
             <p>Chocolate is a popular and beloved food in the world.</p>
